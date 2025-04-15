@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send('Node.js app running in Kubernetes!');
+  res.send(" Updated Kubernetes Node.js App!");
 });
 
 app.listen(port, () => {
